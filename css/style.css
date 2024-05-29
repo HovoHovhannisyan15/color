@@ -1,0 +1,73 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(237, 218, 252);
+}
+/* Родительский блок */
+.wrapper {
+    border: 1px solid black;
+    width: 850px;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: rgb(228, 250, 255);
+    border-radius: 10%;
+
+}
+/* стили для кнопки Show Object */
+.button {
+    display: flex;
+    margin: 30px auto;
+    width: 163px;
+    height: 33px;
+    font-size: 20px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5%;
+    transition: all .6s;
+    border: 1px solid rgb(12, 163, 223);
+    background-color: #fff;
+    /* box-shadow: -5px 1px 19px -9px rgba(0,0,0,0.61); */
+    justify-content: space-around;
+}
+/* Стили для кнопки Show Object при наведении */
+.button:hover {
+    width: 164px;
+    background-color: rgb(228, 250, 255);
+    box-shadow: -1px 4px 18px -13px rgba(0,0,0,0.61);
+    transition: all .9s;
+}
+/* Выбор цвета для блока */
+.listColor {
+    font-size: 16px;
+}
+/* Стили для блока */
+div.block {
+    display: none;
+    margin: 50px auto;
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 3%;
+    background-color: #fff;
+    box-shadow: 12px 7px 25px -19px rgba(0,0,0,0.61);
+
+}
+ul>li {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0 10px;
+    border: 1px solid rgb(12, 163, 223);
+    display: inline-block;
+    border-radius: 7%;
+    transition: all .6s;
+    background-color: #fff;
+}
+ul>li:hover {
+    cursor: pointer;
+    box-shadow: -1px 4px 18px -13px rgba(0,0,0,0.61);
+    transition: all .6s;
+    background-color: rgb(230, 255, 255);
+
+}
+p {
+    margin-left: 50px;
+}
