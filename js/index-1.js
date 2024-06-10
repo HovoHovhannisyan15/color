@@ -26,7 +26,8 @@ hide_block.onclick = function() {
 //     }
     
 
-// Color Yellow
+// Colors
+
 function yellow() {
     block.style.backgroundColor = "yellow";
 }
