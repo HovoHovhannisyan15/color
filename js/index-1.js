@@ -18,7 +18,7 @@ hide_block.onclick = function() {
 //     else
 //         block.style.display = "flex"
 // }
-//     function show() {
+// show_block.onclick = function() {
 //         if(document.querySelector('div.block').style.display = "flex")
 //             document.querySelector('div.block').style.display = "none"
 //         else
