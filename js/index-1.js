@@ -2,22 +2,29 @@
 
 let block = document.querySelector('div.block');
 
-function showBlock() {
+let show_block = document.querySelector('button.button');
+let hide_block = document.querySelector('button.hide_block');
+
+show_block.onclick = function() {
     block.style.display = "flex"
-};
-function hideBlock() {
+}
+hide_block.onclick = function() {
     block.style.display = "none"
-};
+}
 
-
-let list = document.querySelector('ul.listColor');
-
-function showList() {
-    list.style.display = "flex"
-};
-function hideList() {
-    list.style.display = "none"
-};
+// function show() {
+//     if(block.style.display = "flex")
+//         block.style.display = "none"
+//     else
+//         block.style.display = "flex"
+// }
+//     function show() {
+//         if(document.querySelector('div.block').style.display = "flex")
+//             document.querySelector('div.block').style.display = "none"
+//         else
+//             document.querySelector('div.block').style.display = "flex"
+//     }
+    
 
 // Color Yellow
 function yellow() {
